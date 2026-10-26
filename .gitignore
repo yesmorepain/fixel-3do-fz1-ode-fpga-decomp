@@ -1,0 +1,10 @@
+# Fixel's firmware file, the bitstream and everything generated from them (not distributed)
+/original/*
+!/original/README.md
+/build/
+
+# Reference documents: obtain separately, see references/README.md
+/references/*
+!/references/README.md
+
+__pycache__/
