@@ -70,3 +70,6 @@ covers neither.
    (status bit 4 = 0 vs. H bit 4). The firmware ignores that byte.
 2. Gated command-FIFO write clock (strobe & !GPIO21): if a 3DO strobe ends on the edge where GPIO21 drops, the
    clock can glitch and step the write pointer without a counted byte (co-sim seeds 1 and 4).
+
+Note: the co-sim comparator does not label race 2 itself; seeds 1 and 4 report its SO mismatches as plain
+mismatches.
