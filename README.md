@@ -165,7 +165,8 @@ onto an ODE in place of the official one is at your own risk and not recommended
 
 ## Licence
 
-The tools in `tools/` are original work of this project and are released under the MIT licence (see `LICENSE`).
+The tools in `tools/` are original work of this project and are released under an MIT-based licence
+that forbids commercial products or purposes (see `LICENSE`).
 The clean HDL in `hdl/` and the design description in `docs/design.md` are a reconstruction of Fixel's design,
-whose licence is "TBD"; the MIT licence does not cover them. Nothing in this repository grants any rights to
+whose licence is "TBD"; that licence does not cover them. Nothing in this repository grants any rights to
 Fixel's design or firmware.
